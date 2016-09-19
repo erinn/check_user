@@ -1,6 +1,7 @@
 # check_user Nagios Plugin
 This plugin performs a basic check to ensure a user is present on the system.
 
+```
 optional arguments:
   -h, --help            show this help message and exit
   -t, --timeout TIMEOUT
@@ -8,3 +9,4 @@ optional arguments:
                         seconds.
   -u, --username USERNAME
                         Specify the username to use. Default: None
+```
