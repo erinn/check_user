@@ -29,6 +29,11 @@ OK = 0
 
 def get_user(username):
     """
+    This function retrieves the user information, if the user does not exist
+    this function returns None.
+
+    This function requires one argument:
+    username - a string with the username.
     """
 
     try:
@@ -41,6 +46,12 @@ def get_user(username):
 
 def parse_exit(user_info, username):
     """
+    This function parses the user information and axits the program issuing
+    the proper exit codes for Nagios.
+
+    This function requires two arguments:
+    user_info - Either the getpwnam dict return or None if no user found.
+    username - A string with the username.
     """
     if user_info:
         print('User: "{0}" found. UID: {1}, GID: {2}, GECOS: {3}'
