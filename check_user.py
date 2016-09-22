@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/bin/env python
 
 # Copyright 2016, Erinn Looney-Triggs <erinn.looneytriggs@gmail.com>
 #
